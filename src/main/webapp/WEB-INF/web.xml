@@ -8,10 +8,14 @@
 		<param-value>/WEB-INF/application-context.xml</param-value>
 	</context-param>
 
+	<context-param>
+		<param-name>globalInitializerClasses</param-name>
+		<param-value>io.pivotal.sample.cloud.config.SpringCloudConfigWebApplicationContextInitializer</param-value>
+	</context-param>
+	
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
 
 	<!-- Processes application requests -->
 	<servlet>
