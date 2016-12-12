@@ -1,6 +1,6 @@
 # spring-mvc-cloud-config
 This Project demonstrates a means to enable using spring-cloud config into a class spring-mvc project. 
-(Note this is not intended for production use as it bootstraps the configuration as simply as possible.  You should ensure your implementation follows the preferred configuration initialization of your organization.)  
+(Note this is not intended for production use as it bootstraps the configuration as simply as possible, and does not include other Spring Cloud Config functionality like refresh.  You should ensure your implementation follows the preferred configuration initialization of your organization.)  
 
 in order for this to work you must set the following properties somewhere in the property sources.
 
